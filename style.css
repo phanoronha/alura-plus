@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+}
+
+body {
+    background-color: #00030C;
+    background-image: url(assets/Background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+main .start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin-top: 125px;
+    margin-left: 54px;
+    width: 588px;
+}
+
+main .start h1 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+main .start .img-combo {
+    margin-top: 22px;
+}
+
+main .start .btns {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 54px;
+}
+
+main .start .btns .btn-primary {
+    width: 512px;
+    padding: 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #167BF7;
+    border-radius: 8px;
+    border: solid 1px transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+main .start .btns .btn-primary:hover {
+    border: solid 1px #fff
+}
+
+main .start .btns .btn-secondary {
+    width: 512px;
+    padding: 16px;
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+    border-radius: 8px;
+    border: solid 1px #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+main .start .btns .btn-secondary:hover {
+    background-color: #167BF7;
+}
+
+main .start p {
+    margin-top: 10px;
+    color: #C0C0C0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+main .plat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 250px;
+}
+
+main .plat .img-plat {
+    margin-left: 165px;
+}
+
+main .plat .info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+main .plat .info h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+main .plat .info p {
+    font-size: 16px;
+    color: #f9f9f9;
+    width: 588px;
+}
+
+main .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 200px;
+
+}
+
+main .about .info {
+    font-size: 16px;
+    color: #f9f9f9;
+    width: 588px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+main .about .info button {
+    color: #fff;
+    font-size: 15px;
+    background-color: #167BF7;
+    padding: 16px;
+    width: 163px;
+    border: solid 1px transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+main .about .info button:hover {
+    border: solid 1px #fff;
+}
+
+main .laptop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 200px;
+}
+
+main .laptop .info {
+    width: 588px;
+}
+
+main .laptop .info h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+main .laptop .info p {
+    color: #f9f9f9;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+main .disp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 200px;
+}
+
+main .disp h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+main .disp .imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+main .disp .imgs .dev {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column;
+}
+
+main .disp .imgs .dev h2 {
+    color: #fff;
+    font-size: 32px;
+}
+
+footer .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+footer .content .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+footer .content .container .links {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+footer .content .container .links p {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+footer .content .container .links p:hover {
+    text-decoration: underline;
+}
+
+footer .content .container .info {
+    color: #C0C0C0;
+    font-size: 14px;
+}
+
+footer .content .container .services {
+    text-align: center;
+    width: 1200px;
+    color: #C0C0C0;
+    font-size: 14px;
+    margin-bottom: 100px;
+}
